@@ -10,6 +10,10 @@ Avo.configure do |config|
     config.current_user_method = :current_user
   end
 
+  Avo.configure do |config|
+    config.current_user_resource_name = :current_user
+  end
+
   ## == Licensing ==
   config.license = 'community' # change this to 'pro' when you add the license key
   # config.license_key = ENV['AVO_LICENSE_KEY']
